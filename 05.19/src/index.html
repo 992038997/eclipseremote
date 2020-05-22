@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>首页</title>
+<style type="text/css">
+div {
+    border:1px solid #000;
+	margin: 0px auto;
+}
+#logo{
+  width: 960px;
+  height: 61px;
+}
+#header{
+   width: 100%;
+   height: 91px;
+}
+#content{
+    width: 950px;
+    height: 410px;
+    border: 5px solid #8ac1db;
+}
+/*  #content-subtant{
+    width: 910px;
+    height:405px;
+}  */
+#contentA{
+    width: 910px;
+    height: 30px;
+}
+#contentB{
+    width: 910px;
+    height: 340px;
+}
+#contentC{
+   width: 910px;
+   height: 28px;
+}
+#footer{
+   width: 960px;
+   height: 50px;
+}
+
+/*第二版本  */
+body{
+  background-color: #0EA8D8;
+}
+#header{
+   background-color:#0488BB; ;
+}
+#content{
+   background-color:#e8f3f8;
+}
+#logo{
+    background-image: url("../images/top_bg.png");
+}
+/*第三版本 */
+ #logo{
+  text-align: right;/*设置id为logo的div文字居右*/
+  line-height: 60px;/*设置id为logo的文字行高60像素*/
+}
+#logo a{
+  margin-right: 70px;/*设置id为logo的里面a标签的外边距右侧距离70像素，向左挤压(移动)*/
+  color: #fff;/*设置id为logo的里面a标签的文字颜色白色*/
+  text-decoration: none;/*设置id为logo的里面a标签的(清除超链接默认自带的下划线)*/
+  }
+    #logo a:HOVER {
+	font-weight:bold;/*文字默认加粗*/ 
+  }
+</style>
+</head>
+<body>
+   <div id="logo">
+       <a href="http://www.baidu.com" >登录</a>
+   </div>
+   <div id="header"></div>
+   <div id="content">
+              <div id="content-subtant">
+                  <div id="contentA"></div>
+                  <div id="contentB"></div>
+                  <div id="contentC"></div>
+              </div>   
+   </div>
+   <div id="footer"></div>
+</body>
+</html>
